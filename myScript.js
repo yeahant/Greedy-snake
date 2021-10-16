@@ -193,7 +193,6 @@ function snake() {
             [this.x+6, this.y+5, '#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6)],
             [this.x+5, this.y+5, '#000000']
         ];
-        direct = ['right','top','bottom']
         n = Math.floor(Math.random() * direct.length + 1)-1;
         this.direct = direct[n];  // Start with direction
         snake.display();
