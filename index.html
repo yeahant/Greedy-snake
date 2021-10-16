@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        贪吃蛇
+    </title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body style="overflow:hidden">
+<div id="main">
+    <p>
+        <strong>
+            贪吃蛇
+        </strong>
+    </p>
+    <p>
+        按P暂停
+    </p>
+    <p>
+        按↑↓←→可控制方向
+    </p>
+    <p>
+        积分：
+        <span id="count">
+			0
+		</span>
+    </p>
+</div>
+<div id="map"></div>
+<div id="key">
+    <table>
+        <tbody>
+        <tr id="up" style="
+					text-align: center;
+					">
+            <td colspan="3">
+                <input type="button" value="↑" onclick="snake.setKey(38)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="←" onclick="snake.setKey(37)">
+            </td>
+            <td>
+                <input type="button" value="↓" onclick="snake.setKey(40)">
+            </td>
+            <td>
+                <input type="button" value="→" onclick="snake.setKey(39)">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="myScript.js">
+</script>
+</body>
+</html>
+<script src="myScript.js">
+</script>

@@ -1,0 +1,47 @@
+#map {
+    background-color: #000000;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+#key {
+    position: absolute;
+    width: 81px;
+    top: 550px;
+    /**
+     * 这里加上什么能让方向键居中呢...?
+     * What's up , I don't know!
+     * Now,let's open baidu.com
+     * And,the answer is below
+     */
+    left: 50%;
+    margin-left: -41.5px;
+}
+
+#main {
+    width: 100%;
+    text-align: center;
+}
+
+#map {
+    /**
+     * 这里加上什么能让游戏界面居中呢...?
+     * What's up , I don't know!
+     * Now,let's open baidu.com
+     * And,the answer is below
+     */
+    left: 50%;
+    margin-left: -200px;
+
+}
+
+#up {
+    /**
+     * 这里加上什么能让上方向键居中呢...?
+     * What's up , I don't know!
+     * Now,let's open baidu.com
+     * And,the answer is below
+     */
+    text-align: center;
+}
