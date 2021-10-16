@@ -151,11 +151,11 @@ function snake() {
              * It took me a long time to understand this array.
              * console.log(this.body) => Key to problem solving
              */
-            this.body.push([x,y,'#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6)])
-
+            console.log(this.body);
+            this.body.push([x,y,'#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6)]);
             // Food disappear
             this.body[this.body.length - 1][2] = "#000000";
-            this.body[this.body.length - 2][2] = "#ffffff";
+            this.body[this.body.length - 2][2] = '#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6);
             food.display();
         }
         if (this.body[0][0] === 40 || this.body[0][0] === -1 ||
